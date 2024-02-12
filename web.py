@@ -9,4 +9,4 @@ def hello():
     return f'Hola Edwin, la fecha y hora actual es: {current_time}'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', debug=True)
