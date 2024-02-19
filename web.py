@@ -19,5 +19,5 @@ class MyTest(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertIn("Hola Edwin", response.data.decode('utf-8'))
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True)
