@@ -1,4 +1,13 @@
 # credibanco-test
+
+## Run Python
+
+python web.py
+
+## Run Test with pytest
+
+pytest web.py
+
 ## Web.py
 Para la ejecucion de la aplicacion web.py podra ver los resultados: http://localhost:5000
 
